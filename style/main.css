@@ -1,0 +1,47 @@
+:root {
+    --corvermelha: #E50914;
+    --corpreta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--corpreta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--corvermelha);
+    font-family: 'Arial Black', 'Times';
+    font-size: 40px;
+}
+
+header nav a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 10px;
+}
+
+header nav a:hover {
+    color: : #FFF;
+}
+
+.principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/xerox.jpg') no-repeat;
+    background-size: 100% auto;
+    height: 400px;
+}
